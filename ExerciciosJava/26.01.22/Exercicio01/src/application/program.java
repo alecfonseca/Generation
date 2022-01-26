@@ -18,8 +18,8 @@ public class program {
 	    
 	    double total = 0;
 	    		total += dias;
-	    		total += (meses*30);
-	    		total += (anos*365);
+	    		total += (meses * 30);
+	    		total += (anos * 365);
 	    		
 	    		System.out.printf("O total em dias é: %.2f", total);
 	    		

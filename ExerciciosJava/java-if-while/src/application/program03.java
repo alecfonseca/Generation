@@ -17,11 +17,12 @@ public class program03 {
 		int idade = 0;
 
 		while (true) {
-			System.out.print("Entre com uma idade: ");
+			System.out.print("\nEntre com uma idade: ");
 			idade = leia.nextInt();
 
 			if (idade >= 10 && idade <= 14) {
 				System.out.println("Infantil");
+				
 			} else if (idade >= 15 && idade <= 17) {
 				System.out.println("Juvenil");
 			}
